@@ -1,0 +1,21 @@
+開發平台：Mac OS X
+使用開發環境：Xcode, C++
+所選擇的組合語言: SIC/XE
+
+[說明你的程式設計(功能，流程，使用的data structure)]
+主要分為Lex, pass1, pass2 三個stage
+
+比較特別的是以Line為一個單位，
+其中包含Obj Code, Source, 還有那一行的locc
+
+大量使用bit operation來達成Objcode的運算
+
+
+
+
+[未完成的功能]
+
+NOBASE
+多個START END
+CSECT
+ORG
